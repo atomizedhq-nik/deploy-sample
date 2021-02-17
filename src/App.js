@@ -1,19 +1,18 @@
 import React from "react"
 import { Row, Col } from "react-bootstrap"
-
 import "./App.scss"
-
+import Cat from "./assets/images/cat.gif"
 //assets
 import { ReactComponent as Containers } from "./assets/images/containers.svg"
 import { ReactComponent as Servers } from "./assets/images/servers.svg"
 import { ReactComponent as StaticSites } from "./assets/images/static-sites.svg"
 import { ReactComponent as Versions } from "./assets/images/versions.svg"
 import { ReactComponent as Atomized } from "./assets/images/atomized.svg"
-
 function App() {
   return (
     <div className="wrapper">
-      <Col className="frame" lg={6}>
+      <img src={Cat} />
+      {/* <Col className="frame" lg={6}>
         <Row>
           <Col>
             <div className="title">
@@ -88,9 +87,8 @@ function App() {
             </Row>
           </Col>
         </Row>
-      </Col>
+      </Col> */}
     </div>
   )
 }
-
 export default App

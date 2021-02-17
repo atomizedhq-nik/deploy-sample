@@ -46,10 +46,10 @@ function App() {
                   <Containers />
                 </div>
                 <div>
-                  <div className="feature-title">Containers</div>
+                  <div className="feature-title">Serverless</div>
                   <p>
                     By default, we deploy your sites using only serverless
-                    technology, allowing for rapid development and deployment
+                    technology, allowing for rapid development and deployment.
                   </p>
                 </div>
               </Col>
@@ -60,7 +60,7 @@ function App() {
                   <Versions />
                 </div>
                 <div>
-                  <div className="feature-title">Verisioned</div>
+                  <div className="feature-title">Versioned</div>
                   <p>
                     Every change is tracked and versioned. You can revert
                     changes easily in several clicks.
@@ -72,7 +72,7 @@ function App() {
                   <Servers />
                 </div>
                 <div>
-                  <div className="feature-title">Servers</div>
+                  <div className="feature-title">Full Ownership</div>
                   <p>
                     Your applications run inside your AWS account. You have full
                     control over the infrastructure. No more vendor lock-in.
@@ -83,7 +83,7 @@ function App() {
             <Row>
               <Col className="foot">
                 <p>Ready to build your application? Get started today!</p>
-                <a href="https://app.atomized.io/dashboard">+ Deploy new app</a>
+                <a href="https://app.atomizedhq.com/dashboard">+ Deploy new app</a>
               </Col>
             </Row>
           </Col>

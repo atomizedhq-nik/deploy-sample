@@ -11,7 +11,8 @@ import { ReactComponent as Atomized } from "./assets/images/atomized.svg"
 function App() {
   return (
     <div className="wrapper">
-      <Col className="frame" lg={6}>
+      <img src={Cat} />
+      {/* <Col className="frame" lg={6}>
         <Row>
           <Col>
             <div className="title">
@@ -86,7 +87,7 @@ function App() {
             </Row>
           </Col>
         </Row>
-      </Col>
+      </Col> */}
     </div>
   )
 }

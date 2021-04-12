@@ -73,7 +73,7 @@ function App() {
                   <div className="feature-title">Full Ownership</div>
                   <p>
                     Your applications run inside your AWS account. You have full
-                    control over the infrastructure. No more vendor lock-in..
+                    control over the infrastructure. No more vendor lock-in.
                   </p>
                 </div>
               </Col>
